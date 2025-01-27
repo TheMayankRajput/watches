@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Logo</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+     .container {
+      /* width: 100%; */
+      height: 100vh; 
+      background-image: url('images/bg-image.png'); /* Replace with your image URL */
+      background-size: cover; /* Ensures the image covers the entire container */
+      background-position: center; /* Centers the image */
+      background-repeat: no-repeat; /* Prevents tiling of the image */
+      /* display: flex; Optional: To add content inside the container */
+      /* justify-content: center; Centers content horizontally */
+      /* align-items: center; Centers content vertically */
+      color: white; /* Text color for visibility */
+      /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); Optional: Adds text shadow for readability */
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* background-color: #333; */
+      padding: 10px 20px;
+    }
+    .navbar .logo {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .navbar .nav-links {
+      display: flex;
+      align-items: center;
+    }
+    .navbar .nav-links a {
+        font-family: 'Montserrat Light';
+        font-size: 15px;
+      color: white;
+      text-decoration: none;
+      padding: 0 15px;
+    }
+    .navbar .nav-links span {
+      color: white;
+    }
+    .navbar .nav-links a:hover {
+      color: gold;
+      /* border-radius: 5px; */
+    }
+    .navbar .nav-links a.active{
+        color: gold;
+    }
+    .t1{
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 6%;
+        text-align: center;
+    }
+    .t1 h1{
+        width: 500px;
+        font-size: 40px;
+        font-family:'Julius Sans one';
+        font-weight: lighter;
+    }
+    .t1 p{
+        font-family: 'Montserrat Light';
+    }
+
+    .btn {
+      background-color: #377e39; /* Green background */
+      color: white; /* White text */
+      font-family: 'Montserrat Light';
+      padding: 12px 60px;
+      font-size: 15px; /* Font size */
+      border: none;
+      cursor: pointer; /* Pointer cursor on hover */
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+    }
+
+    /* Hover effect */
+    .btn:hover {
+      background-color: #45a049; /* Darker green on hover */
+      transform: scale(1.05); /* Slight zoom effect */
+    }
+
+    /* Active effect */
+    .btn:active {
+      background-color: #3e8e41; /* Even darker green when clicked */
+      transform: scale(1); /* Reset zoom */
+    }
+
+    .container-2{
+        text-align: center;
+    }
+    .container-2 h1{
+        font-family: 'Julius Sans one';
+        font-weight: lighter;
+        font-size: 40px;
+    }
+    .container-2 p{
+      font-family: 'Montserrat Light';
+        font-weight: lighter;
+        font-size: 20px;
+    }
+  </style> -->
+</head>
+<body>
+    <div class="container">
+        <br>
+        <br>
+        <div class="navbar">
+            <!-- Logo on the left -->
+            <a href="#" class="logo">MyLogo</a>
+
+            <!-- Navigation links on the right -->  
+            <div class="nav-links">
+                <a href="#home" class="active"> Home </a>
+                <span>|</span>
+                <a href="#about"> Products </a>
+                <span>|</span>
+                <a href="#services"> About Us </a>
+                <span>|</span>
+                <a href="#contact"> Contact Us </a>
+            </div>
+        </div>
+        <div class="t1">
+            <h1>Prefinished Engineered Wooden Watches</h1>
+            <p>With 50+ years of legacy we ensure you always gets the best.  </p>
+            <br>
+            <button class="btn">BOOK NOW</button>
+        </div>
+    </div>
+    <br>
+    <div class="container-2">
+        <h1>Our Latest Release</h1>
+        <p>We love what we do, dedicated to creating the highest quality Watches</p>
+    </div>
+
+</body>
+</html>
