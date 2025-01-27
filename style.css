@@ -4,7 +4,7 @@ body {
   }
   .container {
     height: 100vh; 
-    background-image: url('/images/bg-image.png'); /* Replace with the correct path */
+    background-image: url('../watches/images/bg-image.png'); /* Replace with the correct path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
