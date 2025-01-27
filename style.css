@@ -91,9 +91,9 @@ body {
 
 @font-face {
   font-family: 'Montserrat Light';
-  src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+  src: url('../watches/Fonts/Montserrat-Light.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Julius Sans One';
-  src: url('../fonts/JuliusSansOne-Regular.ttf') format('truetype');
+  src: url('../watches/Fonts/JuliusSansOne-Regular.ttf') format('truetype');
 }
